@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&display=swap');
+
+
+@import "tailwindcss";
+
+@theme {
+    --font-antonSc: "Anton SC", "sans-serif";
+    --font-bebasNeue :"Bebas Neue", "sans-serif";
+    --font-specialGothicCondensedOne: "Special Gothic Condensed One", "sans-serif";
+}
