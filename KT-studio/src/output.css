@@ -763,6 +763,9 @@
   .pt-24 {
     padding-top: calc(var(--spacing) * 24);
   }
+  .pr-3 {
+    padding-right: calc(var(--spacing) * 3);
+  }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
   }
@@ -847,6 +850,9 @@
   .tracking-widest {
     --tw-tracking: var(--tracking-widest);
     letter-spacing: var(--tracking-widest);
+  }
+  .text-\[\#B3B6D2\] {
+    color: #B3B6D2;
   }
   .text-\[px\] {
     color: px;
@@ -994,6 +1000,16 @@
   .group-open\:bg-cyan-300 {
     &:is(:where(.group):is([open], :popover-open, :open) *) {
       background-color: var(--color-cyan-300);
+    }
+  }
+  .group-open\:text-\[\#B3B6D2\] {
+    &:is(:where(.group):is([open], :popover-open, :open) *) {
+      color: #B3B6D2;
+    }
+  }
+  .group-open\:text-\[\#DBF5FF\] {
+    &:is(:where(.group):is([open], :popover-open, :open) *) {
+      color: #DBF5FF;
     }
   }
   .group-open\:text-blue-600 {
